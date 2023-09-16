@@ -1,0 +1,30 @@
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.imdb {
+  display: flex;
+  gap: 10px;
+}
+.rotten_tomato {
+  display: flex;
+  gap: 10px;
+}
+
+.imdb_logo {
+  width: 40px;
+  height: 20px;
+  padding-top: 15px;
+}
+.tomato_logo {
+  width: 20px;
+  height: 20px;
+  padding-top: 15px;
+}
+
+.movieLink {
+  text-decoration: none;
+  color: black;
+}

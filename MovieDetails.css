@@ -1,0 +1,226 @@
+body {
+  background-color: #ffff;
+}
+
+.errorM {
+  color: rgb(58, 13, 13);
+}
+.movieDetailsHold {
+  display: flex;
+}
+
+.movieDetailsHold .sideBar {
+  width: 15%;
+  background-color: #fff;
+  border: 1px solid rgba(156, 163, 175, 1);
+  border-radius: 0 15px 15px 0;
+  padding: 20px 0px;
+  transition: all 0.05s;
+}
+.sideBar .sideBarLogo {
+  display: flex;
+  align-items: center;
+  padding: 20px 10px;
+  gap: 15px;
+}
+.sideBarLogo span {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 900;
+}
+.sideBar .sideBarNav {
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+
+  transition: all 0.5s;
+}
+.sideBarNav .sideLink {
+  display: flex;
+  gap: 15px;
+  padding: 20px 15px;
+  font-size: 15px;
+}
+.sideLink .link {
+  text-decoration: none;
+  color: #666666;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sideLink span {
+  margin-left: 10px;
+}
+
+.sideBarNav .active {
+  background-color: #f8e7eb;
+  border-right: 2px solid #be123c;
+}
+.activeLink Span {
+  color: #be123c !important;
+  font-weight: 700;
+}
+
+.sideBarNav .ads {
+  background-color: #f8e7eb;
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #be123c;
+  border-radius: 10px;
+  padding: 10px;
+}
+.sideBarNav .ads .first {
+  font-size: 12px;
+  color: #333333;
+  font-weight: 500;
+}
+.sideBarNav .ads .sec {
+  font-size: 11px;
+  color: #666666;
+  font-weight: 300;
+}
+.sideBarNav .ads .btn {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgba(253, 164, 175, 1);
+  color: #be123c;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* Movie Details */
+.movieDetailsHold {
+  min-height: 100vh;
+}
+.movie-details {
+  min-height: 100vh;
+}
+.movieHold {
+  position: relative;
+}
+.imgfluid {
+  width: 1250px;
+  height: 600px;
+}
+.play-Btn {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 35%;
+  right: 47%;
+  background-color: #f3f4f680;
+  padding: 8px;
+  border-radius: 50%;
+  z-index: 9;
+  cursor: pointer;
+}
+.play-Btn:hover {
+  background-color: #be123c;
+  fill: #fff;
+}
+.play {
+  position: absolute;
+  top: 48%;
+  right: 47%;
+  color: #ffff;
+  z-index: 9;
+  font-size: 12px;
+}
+.mainDetails span {
+  gap: 25px;
+  color: #404040;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.mainDetails .movieChoice {
+  color: #be123c !important;
+  font-size: 11px !important;
+}
+.movie-overview {
+  width: 100%;
+}
+.movieOverview {
+  color: #333333;
+  font-weight: 11px;
+  line-height: 1.3;
+}
+.castList p {
+  color: #333333;
+  font-size: 12px;
+  line-height: 0.5;
+}
+.castList span {
+  color: #be123c;
+  font-weight: 600;
+}
+.rated {
+  width: 100%;
+}
+.topRate {
+  background-color: #be123c !important;
+  color: #fff !important;
+  font-size: 10px !important;
+  outline: none;
+  border: none !important;
+  box-shadow: none;
+}
+.selectTag {
+  width: 60%;
+  height: 30px;
+  border: 1px solid #e8e8e8;
+}
+.selectTag {
+  cursor: none;
+}
+.stats .movie-star {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 0.5;
+}
+.movie-star span {
+  color: #f2c94c;
+  cursor: pointer;
+}
+.movie-star p {
+  font-size: 12px !important;
+  color: #e8e8e8;
+  cursor: pointer;
+}
+.stats-btn-hold {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 5px;
+}
+.btnShow {
+  background-color: #be123c !important;
+  color: #fff !important;
+  font-size: 14px !important;
+  outline: none;
+  border: none !important;
+  box-shadow: none;
+}
+.btnWatch {
+  background-color: #f8e7eb !important;
+  color: #333333 !important;
+  font-size: 14px !important;
+  outline: none;
+  border: 1px solid #be123c !important;
+  box-shadow: none;
+}
+.mixedMovieHold {
+  position: relative;
+  height: fit-content;
+  margin-top: 5px;
+}
+
+.mixedMovieHold .best {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #121212;
+  color: #fff;
+  font-size: 12px;
+  width: 100%;
+  line-height: 2;
+  text-align: center;
+}

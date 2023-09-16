@@ -1,0 +1,18 @@
+.footer_container {
+  margin-top: 100px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.media_icons {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}
+.social_icon {
+  color: black;
+}
+.usage_statement {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
